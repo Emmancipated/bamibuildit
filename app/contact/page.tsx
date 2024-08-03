@@ -115,6 +115,7 @@ function Contact() {
     const clearAll = () => {
       setInterval(() => {
         setResponse({ success: "", failure: "" });
+        window.location.reload();
       }, 4000);
     };
     try {
