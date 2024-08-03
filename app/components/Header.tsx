@@ -60,24 +60,26 @@ function Header() {
       >
         <div className=" ">
           <div className=" flex justify-center py-4">
-            <Link href="/" className=" text-bb-gray-900 font-medium text-base">
+            <Link
+              href="/"
+              className=" text-bb-gray-900 font-medium text-base w-full text-center"
+            >
               Home
             </Link>
           </div>
           <div className=" flex justify-center py-4">
             <Link
               href="/about"
-              className=" text-bb-gray-900 font-medium text-base"
+              className=" text-bb-gray-900 font-medium text-base w-full text-center"
             >
               About us
             </Link>
           </div>
           <div className=" flex justify-center">
-            <Link
-              href="/contact"
-              className=" text-white font-medium text-base rounded-lg	bg-bb-primary-600 border-solid border-bb-primary-600 border py-3 px-5 shadow-1xl"
-            >
-              Contact
+            <Link href="/contact" className="  w-full">
+              <div className=" text-white font-medium text-base rounded-lg	bg-bb-primary-600 border-solid border-bb-primary-600 border py-3 px-5 shadow-1xl w-fit mx-auto">
+                Contact
+              </div>
             </Link>
           </div>
         </div>
